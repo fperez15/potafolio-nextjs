@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
-    <div>
+    <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
         <div>
             <Image src={assets.profile_img} alt="profile" className="rounded-full w-32"/>
         </div>
@@ -13,7 +13,7 @@ const Header = () => {
             className="w-6"/></h3>
 
         <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-           frontend developer
+           frontend web developer
         </h1>
 
         <p className='max-w-2xl mx-auto font-Ovo'>
@@ -25,7 +25,7 @@ const Header = () => {
                 contactame <Image src={assets.right_arrow_white} alt='' className='w-4'/></a>
 
              <a href="/sample-resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>
-             Mi curriculum<Image src={assets.download_icon} alt='' className='w-4'/></a>
+             mi curriculum<Image src={assets.download_icon} alt='' className='w-4'/></a>
            </div>
     </div>
   )
