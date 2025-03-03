@@ -35,6 +35,16 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import angular from './angular.png'
+import bootstrap from './bootstrap.png'
+import html from "./html5.png";
+import javascript from './javascript.png'
+import primeng from './primeng.webp'
+import reactjs from './reactjs.png'
+import sass from './sass.png'
+import tailwind from './tailwind.png'
+import typescript from './typescript.png'
+import nextjs from './nextjs.png'
 
 export const assets = {
     user_image,
@@ -49,6 +59,16 @@ export const assets = {
     figma,
     git,
     mongodb,
+    angular,
+    bootstrap,
+    html,
+    javascript,
+    primeng,
+    reactjs,
+    sass,
+    tailwind,
+    typescript,
+    nextjs,
     right_arrow_white,
     logo,
     logo_dark,
@@ -80,7 +100,7 @@ export const workData = [
     {
         title: 'Frontend project',
         description: 'Web Design',
-        bgImage: '/work-1.png',
+        bgImage: './assets/logo.png',
     },
     {
         title: 'Geo based app',
@@ -113,5 +133,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.figma, assets.git, assets.angular, assets.bootstrap, assets.html, assets.javascript, assets.primeng, assets.reactjs, assets.sass, assets.tailwind, assets.typescript, assets.nextjs
 ];
